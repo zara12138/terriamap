@@ -27,6 +27,7 @@ export default function UserInterface(props) {
             <Menu>
                 <RelatedMaps viewState={props.viewState} />
                 <MenuItem caption="About" href="about.html" key="about-link"/>
+                <MenuItem caption="TerriaJS"/>
             </Menu>
             <ExperimentalMenu>
                 <If condition={isBrowserSupportedAV()}>
